@@ -206,10 +206,11 @@ font-size: 19px;
 
 .another-box h2{
 	color: #262626;
-	text-align: center;
+	text-align: left;
     text-transform: uppercase;
-    margin-bottom: 31px;
-    border-bottom: 1px solid #262626;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #262626;
+    font-size: 35px;
 }
 
 .another-box p{
@@ -229,10 +230,11 @@ font-size: 19px;
 
 .another-box-inv h2{
 	color:#fcb026 ; 
-	text-align: center;
+	text-align: left;
     text-transform: uppercase;
-    margin-bottom: 31px;
-    border-bottom: 1px solid #fcb026;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #fcb026;
+    font-size: 35px;
 }
 
 .another-box-inv p{
@@ -244,6 +246,9 @@ font-size: 19px;
 	width: 100%;
 }
 
+ .info {
+    margin: 5% 0%;
+}
 
 /* ГОРИЗОНТАЛЬНЫЙ FLIP */
 
