@@ -197,6 +197,54 @@ font-size: 19px;
 }
 
 
+
+.another-box {
+	background-color: #fcb026;
+	padding: 50px 0px;
+}
+
+
+.another-box h2{
+	color: #262626;
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #262626;
+}
+
+.another-box p{
+color: #262626;
+font-size: 19px;
+}
+
+.another-box img {
+	width: 100%;
+}
+
+.another-box-inv {
+	background-color: #262626;
+	padding: 50px 0px;
+}
+
+
+.another-box-inv h2{
+	color:#fcb026 ; 
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #fcb026;
+}
+
+.another-box-inv p{
+color: #fcb026;
+font-size: 19px;
+}
+
+.another-box-inv img {
+	width: 100%;
+}
+
+
 /* ГОРИЗОНТАЛЬНЫЙ FLIP */
 
 .flip_effect_horizontal {
