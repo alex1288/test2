@@ -1,0 +1,454 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	overflow-x:hidden;
+}
+
+p {
+	font-size: 19px;
+}
+
+.gray-style{
+	background-color: rgba(58, 61, 65, 0.5);
+}
+
+.gray-style-un{
+	background-color: rgba(58, 61, 65, 0.7);
+}
+
+.contact-box {
+ background-color: #262626;
+}
+
+.contact-box p{
+
+ color: #FFF;
+ font-size: 25px;
+}
+
+.logo{
+float: left;
+}
+
+.phone {
+float: right;
+text-align: right;
+}
+
+.phone a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0px 7px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.phone a:hover {
+	
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fcb026;
+
+	background-color: #fcb026;
+    -webkit-transition: all .75s;
+	-o-transition: all .75s;
+	transition: all .75s
+}
+.slider-box {
+	color: white;
+}
+
+.slider-box img{
+	width: 100%;
+}
+
+.slider-box-item{
+	//padding: 10% 0px;
+	//padding-top: 60px;
+}
+
+
+.slide {
+	
+	position: relative;
+}
+
+
+
+.slide img{
+	position: relative;
+    
+}
+
+.slide h2{
+	font-size: 40px; 
+}
+
+.absolute {
+	position: absolute;
+	top: 25%;
+	width: 35%;
+}
+
+
+.owl-controls {
+	display: none;
+}
+
+.first-box {
+	background-color: #262626;
+	padding: 50px 0px;
+}
+
+.first-box h2{
+    color: #fcb026;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #fcb026;
+}
+
+.advantages ul li{
+	list-style-type: none;
+	width: 49.8%;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	position: relative;
+	display: inline-block;
+
+}
+
+.advantages ul {
+margin-left: 0; 
+padding-left: 0;
+}
+
+.advantages ul li img{
+	width: 100%;
+}
+
+
+.advantages-p {
+	width: 49.9%;
+    display: inline-block;
+    text-align: center;
+   // background-color: #262626;
+    background-color: #fcb026;
+    color: #262626;
+    height: 232px;
+    vertical-align: middle;
+    margin-left: -4px;
+}
+
+.advantages-p p{
+    font-size: 30px;
+    padding-top: 47px;
+}
+
+
+
+.aboutus {
+	background-color: #fcb026;
+	padding: 50px 0px;
+}
+
+
+.aboutus h2{
+	color: #262626;
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #262626;
+}
+
+.aboutus p{
+color: #262626;
+font-size: 19px;
+}
+
+.aboutus img {
+	width: 100%;
+}
+
+
+/* ГОРИЗОНТАЛЬНЫЙ FLIP */
+
+.flip_effect_horizontal {
+width: 49.9%;
+    height: 232px;
+    position: relative;
+    transition: 1s;
+    display: inline-block;
+    transform-style: preserve-3d;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: rotateY(0deg);
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    vertical-align: middle;
+    -moz-transform: rotateY(0deg);
+
+}
+
+	.advantages-item:hover .flip_effect_horizontal {
+		/* общие стили */
+		transform: rotateY(180deg); /* поворачиваем на 180 градусов по горизонтали */
+		/* для поддержки webkit */
+		-webkit-transform: rotateY(180deg);
+		/* для поддержки moz */
+		-moz-transform: rotateY(180deg);
+	}
+
+.flip_effect_horizontal .front {
+	/* общие стили */
+	position: absolute; /* абсолютное позиционирование */
+  	width: 100%; /* на всю ширину родительского блока */
+	height: 100%; /* на всю высоту родительского блока */
+  	//background: #FF6600; /* цвет фона */
+	backface-visibility: hidden; /* скрываем контент, который отвернут от пользователя */
+	
+	/* для поддержки webkit */
+	-webkit-backface-visibility: hidden;
+	
+	/* для поддержки moz */
+	-moz-backface-visibility: hidden;
+}
+
+.flip_effect_horizontal .back {
+	/* общие стили */
+	position: absolute; /* абсолютное позиционирование */
+  	width: 100%; /* на всю ширину родительского блока */
+	height: 100%; /* на всю высоту родительского блока */
+	background:#fcb026; /* цвет фона */
+	backface-visibility: hidden; /* скрываем контент, который отвернут от пользователя */
+	transform: rotateY(180deg); /* отворачиваем задний блок */
+	
+	/* для поддержки webkit */
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: rotateY(180deg);
+
+	/* для поддержки moz */
+  	-moz-backface-visibility: hidden;
+	-moz-transform: rotateY(180deg);
+}
+
+.back p{
+	text-align: center;
+	color: #262626;
+	font-size: 20px;
+}
+
+
+.goods {
+background-color: #262626;
+padding: 50px 0px;
+}
+
+.goods h2{
+    color: #fcb026;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #fcb026;
+}
+
+.goods h3{
+text-align: center;
+color: #fcb026;
+text-transform: uppercase;
+border-bottom: 1px solid #fcb026;
+}
+
+.goods p {
+	color: #FFF;
+}
+
+.goods img {
+	width: 100%;
+}
+
+
+
+.order {
+	padding: 50px 0px;
+}
+
+
+.order h2{
+	color: #fcb026;
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #fcb026;
+}
+
+.form{
+	text-align: center;
+	overflow: auto;
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+
+.form button{
+height: 50px;
+width: 80%;
+font-size: 26px;
+
+
+}
+
+input {
+	width: 80%;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 25px;
+	padding-left: 7px;
+	margin-bottom: 5px;
+}
+
+button {
+    background-color: #f98500;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #f98500;
+    border-radius: 5px;
+    height: 40px;
+
+ }
+
+button:hover {
+    background-color: transparent;
+    -webkit-transition: all .75s;
+	-o-transition: all .75s;
+	transition: all .75s;
+}
+}
+
+button:active {
+
+ }
+
+/*ФУТЕР*/
+.too_down {
+	text-align: center;
+	background-color: #262626;
+}
+
+
+.foot_list{
+font-size: 20px;
+
+}
+
+
+
+.foot_p {
+	text-align: center; 
+	font-size: 18px; 
+	text-transform: uppercase;
+	border-bottom: 1px solid #fcb026;
+	margin-top: 15px;
+
+}
+.too_down ul li{
+list-style-type: none;
+}
+
+.social {
+	text-align: center;
+	color: white;
+	padding: 15px;
+	-webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.social:hover {
+	color: #fcb026;
+
+}
+.footer-order{
+margin-top: 10%;
+}
+
+.footer-order a{
+	font-size: 32px;
+	background-color: #00bbe4;
+	color: #fff;
+	top: 15px;
+	position: relative;
+	border: 1px solid #00bbe4;
+	border-radius: 8px;
+	padding: 10px 15px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.footer-order a:hover{
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	text-decoration: none;
+}
+
+
+.last-info {
+	background-color: #262626;
+}
+
+.last-info p{
+	color: #fcb026;
+	text-align: center;
+}
+
+
+.last-info a{
+	//color: #ffe9cb;
+	color: #fff;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.last-info a:hover{
+	color: #fcb026;
+}
+
+.footer-about a{
+	color: #fcb026;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.footer-about a:hover{
+	color: #fff;
+}
+/*ФУТЕР Конец*/
+
