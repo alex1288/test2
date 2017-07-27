@@ -302,6 +302,7 @@ font-size: 19px;
 
  .info {
     margin: 5% 0%;
+    z-index: 1;
 }
 
 /* ГОРИЗОНТАЛЬНЫЙ FLIP */
@@ -397,6 +398,36 @@ border-bottom: 1px solid #fcb026;
 }
 
 .goods img {
+	width: 100%;
+}
+
+
+.goods-test {
+background-color: #262626;
+padding: 0px 0px 50px 0px;
+}
+
+.goods-test h2{
+    color: #fcb026;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #fcb026;
+}
+
+.goods-test h3{
+text-align: center;
+color: #fcb026;
+text-transform: uppercase;
+border-bottom: 1px solid #fcb026;
+}
+
+.goods-test p {
+	color: #FFF;
+	text-align: center;
+}
+
+.goods-test img {
 	width: 100%;
 }
 
